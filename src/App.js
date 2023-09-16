@@ -15,13 +15,16 @@ import Proute from './useParams/Proute';
 import { ContexRouting } from './Hooks/UseContex2/ContexRouting';
 import { Effect } from './Hooks/UseEffect/Effect';
 import CrudRouting from './Crud/CrudRouting';
+import UseCallback from './Hooks/UseCallback/UseCallback';
+import UseRef1 from './Hooks/UseRef/UseRef1';
+import UseRef2 from './Hooks/UseRef/UseRef2';
 
 
 function App() {
   return (
     <div className="App">
   
-      <Changename/>
+      {/* <Changename/> */}
     {/* <ContexRouting/> */}
 
      {/* <Hoc/> */}
@@ -35,8 +38,11 @@ function App() {
 {/* <Proute/> */}
 {/* <ContexRouting/> */}
 {/* <Effect/> */}
-
 {/* <CrudRouting/> */}
+
+<UseCallback/>
+{/* <UseRef1/> */}
+{/* <UseRef2/> */}
     </div>
   );
 }
